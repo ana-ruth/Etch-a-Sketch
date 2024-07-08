@@ -33,12 +33,6 @@ function generateColor()
    }
 
 
-function clear()
-{
-    button.addEventListener('click', e=>{
-        row.remove();
-    })
-}
 
 function createGrid(size)
 {
