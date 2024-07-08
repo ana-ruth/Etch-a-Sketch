@@ -10,7 +10,7 @@ button.addEventListener('click',()=>{
 
     while(validNum == false)
     {        
-        value = prompt("Please enter number of squares per side:" );
+        value = prompt("Please enter number of squares per side (< 100):" );
         if(value<=100) 
         {
             numOfSq = value;
